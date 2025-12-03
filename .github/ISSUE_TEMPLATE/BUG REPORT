@@ -1,0 +1,80 @@
+name: Bug Report
+description: Report a problem found on the Horizonte Argentino map for FS25.
+title: "[BUG] "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "## 🐞 Bug Report – Horizonte Argentino (FS25)"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "1. Description of the Issue"
+      description: "What happened? What should have happened instead?"
+      placeholder: "Example: The sell point does not accept sunflower..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: "2. Location on the Map"
+      description: "Field number, coordinates, or reference point."
+      placeholder: "Example: Field 17, near main farm"
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "3. Steps to Reproduce"
+      description: "List steps needed to trigger the issue."
+      placeholder: |
+        1. Load map
+        2. Drive to sell point
+        3. Try unloading wheat
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: "4. Log File (Required)"
+      description: "Paste the content of your log.txt inside a code block. Required for debugging."
+      render: bash
+    validations:
+      required: true
+
+  - type: input
+    id: gameversion
+    attributes:
+      label: "5. Game Version"
+      placeholder: "Example: 1.2.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: "Other Active Mods"
+      placeholder: "List all other mods you had enabled."
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "6. Screenshots / Video"
+      description: "Attach images or links to videos."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional Notes"
+      description: "Anything else that may help."
+    validations:
+      required: false
