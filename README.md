@@ -5,6 +5,7 @@ Please use this repository to report bugs, request improvements or leave feedbac
 
 ---
 
+
 ## 🐞 How to Report a Bug
 If you found an issue, please open a new Issue here:  
 👉 https://github.com/brucmanbm/FS25_HorizonteArgentino/issues
@@ -23,14 +24,12 @@ This information helps identify and fix problems faster.
 
 ---
 
-## 📧 Support
-All support for this mod is handled exclusively through:
+## 💡 Feature Requests
+If you have an idea to improve the map, please use the **Feature Request** issue template and describe:
 
-- **GIANTS Official Forum:** https://forum.giants-software.com  
-- **GitHub Issues (this repository):** https://github.com/brucmanbm/FS25_HorizonteArgentino/issues  
-
-Please do not use email, Discord or social media for support.
-
+- What you would like to see  
+- Why it would improve the gameplay  
+- Where on the map it should be (if applicable)
 ---
 
 ## 🌾 About the Map
