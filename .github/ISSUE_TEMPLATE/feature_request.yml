@@ -1,0 +1,61 @@
+name: Feature Request
+description: Suggest a new idea or improvement for the Horizonte Argentino map.
+title: "[FEATURE] "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "## 💡 Feature Request — Horizonte Argentino (FS25)"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "1. Describe the feature"
+      description: "Explain the improvement, addition or change you propose."
+      placeholder: "Example: Add a new sell point for grapes near the south area."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "2. Why is this feature needed?"
+      description: "Describe why this feature would improve the map or gameplay."
+      placeholder: "This would reduce transport time and provide more economic options."
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: "3. Location on the map (if applicable)"
+      description: "Field number, coordinates or reference point."
+      placeholder: "Example: Near Field 12, next to the river."
+    validations:
+      required: false
+
+  - type: textarea
+    id: how_it_works
+    attributes:
+      label: "4. How should this feature work?"
+      description: "Describe how the feature should function in-game."
+      placeholder: "Example: A cooperative that accepts soybeans, wheat, and sunflower."
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "5. Screenshots or references (optional)"
+      description: "Attach reference images or inspiration."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional Notes"
+      description: "Anything else you'd like to add."
+    validations:
+      required: false
